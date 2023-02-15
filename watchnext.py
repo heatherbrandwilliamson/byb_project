@@ -1,11 +1,9 @@
 
 import spacy
-
 nlp = spacy.load('en_core_web_md')
 
 # open file
 # read contents and store as dictionary
-
 movies= {}
 sentences = open("movies.txt").readlines()
 
